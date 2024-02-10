@@ -9,7 +9,7 @@ from sklearn.metrics import mean_absolute_error
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("E:\\Internship\\Hackathon\\ratings_and_prices.csv")
+    df = pd.read_csv("ratings_and_prices.csv")
     return df
 
 # Preprocess data
